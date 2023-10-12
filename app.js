@@ -1,11 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
-const bookRoutes = require('./bookRoutes');  // Import your book routes
-const userRoutes = require('./userRoutes');
+const bookRoutes = require('./routes/bookRoutes');  // Import your book routes
+const userRoutes = require('./routes/userRoutes');
 const cors = require('cors');
 const path = require('path');
-
 
 
 
